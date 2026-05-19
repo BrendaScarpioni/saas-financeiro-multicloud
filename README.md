@@ -11,7 +11,9 @@ A aplicação está hospedada na Azure Storage Static Website e pode ser acessad
 
 https://rgsaasfinanceirogru91c2.z15.web.core.windows.net
 
-## Equipe
+---
+
+## Equipe BitCode
 
 - Brenda Vitória Scarpioni
 - João Vitor Vieira da Silva
