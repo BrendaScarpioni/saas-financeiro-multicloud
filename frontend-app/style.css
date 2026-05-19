@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cabecalho h1 {
+  color: #1e3a8a;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.cabecalho p {
+  color: #4b5563;
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 24px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.formulario {
+  margin-bottom: 24px;
+}
+
+.formulario h2 {
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.grid-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 22px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.campo label {
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.campo input,
+.campo select {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+  outline: none;
+}
+
+.campo input:focus,
+.campo select:focus {
+  border-color: #2563eb;
+}
+
+button {
+  width: 100%;
+  border: none;
+  background: #2563eb;
+  color: white;
+  padding: 14px;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
+
+.resultados {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.resultado {
+  min-height: 230px;
+}
+
+.resultado h3 {
+  margin: 14px 0 12px;
+  color: #111827;
+}
+
+.resultado p {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.tag {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.aws {
+  background: #fff7ed;
+  color: #c2410c;
+}
+
+.azure {
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.google {
+  background: #f0fdf4;
+  color: #15803d;
+}
+
+.sucesso {
+  color: #166534;
+  font-weight: bold;
+}
+
+.erro {
+  color: #b91c1c;
+  font-weight: bold;
+}
+
+@media (max-width: 850px) {
+  .grid-form,
+  .resultados {
+    grid-template-columns: 1fr;
+  }
+
+  .cabecalho h1 {
+    font-size: 1.8rem;
+  }
+}   
