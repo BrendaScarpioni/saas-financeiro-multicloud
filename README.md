@@ -5,6 +5,11 @@ Projeto desenvolvido para a disciplina de Computação em Nuvem, com o objetivo 
 O sistema simula um investimento financeiro e distribui partes do processamento entre AWS, Azure e Google Cloud, utilizando funções serverless.
 
 ---
+## Link do Site
+
+A aplicação está hospedada na Azure Storage Static Website e pode ser acessada pelo link:
+
+https://rgsaasfinanceirogru91c2.z15.web.core.windows.net
 
 ## Equipe
 
